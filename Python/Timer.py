@@ -10,5 +10,5 @@ class Timer:
 
     def stop(self):
         self.stopTime = time.perf_counter() - self.startTime
-        print('\nElasped time is %s seconds' % self.stopTime)
+        print(f'\nElasped time is {self.stopTime} seconds')
         return self.stopTime
