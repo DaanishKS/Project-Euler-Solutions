@@ -20,4 +20,3 @@ for i in range(12500,0,-1):
 
 print('The value of the first triangular number to have over 500 divisors is: ', Solution)
 Stopwatch.stop()
-
